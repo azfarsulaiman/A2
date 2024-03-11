@@ -34,7 +34,7 @@
 			<h3>Q1: What indicative trends can we deduce in the average annual value of properties for different factors?</h3>
 
 			<figure>
-				<img src= "images/Subsidized_1_ValuevsPrice.png" alt="Sales Price Comparison vs Value" width="650" height="350" title="Price vs Annual Value">
+				<img src= "images/YearlySalePricevsAverageValue.png" alt="Sales Price Comparison vs Value" width="650" height="350" title="Price vs Annual Value">
 				
 				<figcaption>
                     For the residential sales dataset, my starting point was to assess any relationships between average annual values of property compared to prices. For most of the time horizon under consideration (2000-2022), the trends are similar, where an increase in average annual value corresponds to a general increase in price. Interestingly, however, both are immune to drastic changes in each other as they don't display corresponding proportionate change. For example, while there was a sharp decrease in prices in 2008-09, likely brought on by the housing market crash, the average annual value did not change respectively. In fact, there was a notable increase felt in the subsequent years. Prices are much more speculative in nature and volatile to external market trends, and similar behavior is observed here. Additionally, the drastic increase in average annual value did not proportionally raise prices as there was a 6x increase in house value in 2017, but this corresponded to only a 2x increase in price for the same year.
@@ -42,7 +42,7 @@
 			</figure>
 
 			<figure>
-				<img src= "images/Subsidized_2_YearlySales&Price.png" alt="Yearly Sales Price" width="700" height="400" title="Individual Transactions Price Over the Years">
+				<img src= "images/YearlySalePricevsValue.png" alt="Yearly Sales Price" width="700" height="400" title="Individual Transactions Price Over the Years">
 				<figcaption>
                     The previous graph presented interesting findings, and I wanted to explore these on their own separate merit. For prices, I was intrigued to find the density of individual sales. This result shows that most of the residential transactions hovered around the $100M mark individually, with the next highest observation in the $100M-$200M range. While reading the assigned reading <cite><a href='https://homesforprofit.mapc.org/report' target='_blank'>Homes for Profit</a></cite>, my initial assumption was that Boston's prices have been high and remain outside the grasp of reasonable policy change. However, this data underscored that while most of the transactions are not astronomically priced high enough to warrant radical and perhaps unsteady policies, sustained and consistent efforts can still achieve results.        
                 </figcaption>
@@ -79,14 +79,14 @@
 			</figure>
 
 			<figure>
-				<img src="images/Investor_3.png" alt="Primary Owner" width="300" height="350" Title="Primary Owner of Single-Family">
+				<img src="images/PrimaryOwners_SingleFamily.png" alt="Primary Owner" width="400" height="450" Title="Primary Owner of Single-Family">
 				<figcaption>
                     Next, my motivation was to understand the single-family property ownership breakup per investor type. Similar to earlier results, institutional investors are the biggest owners of single-family homes in Boston. Single-family homes represent the greatest value for property owners, as corroborated by the Boston Globe report <cite><a href='https://apps.bostonglobe.com/2023/10/special-projects/spotlight-boston-housing/boston-towers-of-wealth/' target='_blank'>Reckoning with Boston's Towers of Wealth</a></cite> regarding luxury condos. According to the report, developers are mandated to provide subsidized housing as compensation for luxury property investments. A significant part of Boston's housing is crunched because of the sale and development of single-family housing, at the expense of multiple family housing. I explore the property types and locations further under Question 3.
                 </figcaption>
 			</figure>
 
 			<figure>
-				<img src="images/Investor_4.png" alt="Subsidized Housing Ownership" width="300" height="350" Title="Subsidized Housing Ownership">
+				<img src="images/SubsidizedHousingOwnership.png" alt="Subsidized Housing Ownership" width="400" height="500" Title="Subsidized Housing Ownership">
 				<figcaption>
 			Relatedly to the point above, this graph of ownership of subsidized housing represents the instituional investors as major owners of subsidized housing properties in Boston. While Medium investor type hold the least amount of such housing, it is worryung that small investors do not own a majority of subsidized housing. This presents risks of evictions and 
 			exorbitant rates since the investors are driven by the profit motive, instituional investors primarily so, and this representation not being a democratic one can spell trouble for Boston housing market. I explore this contribution next.
@@ -119,14 +119,14 @@
 				</figure>
 
 				<figure>
-					<img src="images/Rich_2.png" alt="Apt Buildings" width="550" height="350" Title="Apartment Buildings">
+					<img src="images/GeographicalDistributionofAPT.png" alt="Apt Buildings" width="600" height="400" Title="Apartment Buildings">
 					<figcaption>
                         Further exploring the APT dataset for Boston proper, I observe that the Dorchester neighborhood has the most number of APT buildings. I've annotated on the graph for reference of property numbers. This graph shows that contrary to general perception, APT buildings are not as prominent in the frequently visited commercial areas of Boston proper such as Downtown, Park Street, North End, and Back Bay.
                     </figcaption>
 				</figure>				
 
 				<figure>
-					<img src="images/Rich_3.png" alt="Bathroom to Bedroom" width="600" height="500" Title="Bathroom to Bedroom">
+					<img src="images/ComparisonofBedroomvBathroom.png" alt="Bathroom to Bedroom" width="600" height="500" Title="Bathroom to Bedroom">
 					<figcaption>
                         For the different property types, I was also interested in their composition, after having developed a good sense of the frequency of their presence and location in the given municipalities. This graph involved calculating the ratio of bathrooms and bedrooms to total rooms respectively for each property. It was interesting to note that the majority of the property types concentrated around 0.5, i.e., half the number of bathrooms and bedrooms to total rooms present.
 
@@ -156,13 +156,13 @@
 				</figure>
 
 			<figure>
-			<img src="images/Flips_BuySide.png" alt="Buyside Flips" width="500" height="500" Title="Buyside Flips">
+			<img src="images/BuysideFlips_PriceDiff.png" alt="Buyside Flips" width="500" height="500" Title="Buyside Flips">
 			<figcaption>
                 Next, to further break down the horizon analysis from the previous part, I map the price differential rather than the price to understand buyside flip behavior. This is meant to better gauge flip behavior over the time horizon as the price differential represents the price difference between flips. Consistent with my understanding and previous analysis, buyers prefer to hold properties for the longest duration possible, i.e., 24+ months; hence, this doesn't represent a significant number of properties that are purchased for flipping, at least on the short-term horizon. The differential for this is incredibly high, more than expected, worth $600M. For any duration below 24 months, it represents a positive differential of tens of millions at maximum. Curiously, the purchase of properties represents a positive differential for buyers except in the 24th month and represents an avenue for further study.
             </figcaption>	
 
 			<figure>
-			<img src="images/Flips_SellSide.png" alt="Bathroom to Bedroom" width="500" height="500" Title="Sellside Flips">
+			<img src="images/SellSideFlips_PropertyDiff.png" alt="Bathroom to Bedroom" width="500" height="500" Title="Sellside Flips">
 			<figcaption>
                 Contrastingly, the sell-side flips are much more volatile to price differentials than buy-side flips, with the 5-month flips representing a net negative differential of approximately $145M. Flipped property sales do not have a discernible pattern, at least in the short-term. However, similar to buy-side flips, the value is positive for a 24+ month horizon. Flipping property for the purpose of getting higher profits represents a high-risk framework, and such sellers are more sensitive and liable to net negative price differentials. Their behavior represents the trading characteristics but they also recognize the long-term sales and purchase horizon for such properties. 
             </figcaption>	
